@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/misheck12/to-do#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
     "hint": "^6.1.10",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.70.0",

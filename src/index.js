@@ -39,7 +39,7 @@ const populateLists = () => {
       </div>
       <img src="${kebabMenu}" alt="Kebab-menu" class="kebab-icon">
     `;
-    
+
     listItems.appendChild(listItem);
   });
 };
