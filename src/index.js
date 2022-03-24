@@ -1,7 +1,7 @@
 import './style.css';
-import kebabMenu from './kebab-menu.svg';
-import enterIcon from './enter-icon.svg';
-import refreshIcon from './Refresh_icon.svg';
+import kebabMenu from '../img/kebab-menu.svg';
+import enterIcon from '../img/enter-icon.svg';
+import refreshIcon from '../img/Refresh_icon.svg';
 
 const toDoLists = [
   {

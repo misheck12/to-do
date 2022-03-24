@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _kebab_menu_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./kebab-menu.svg */ \"./src/kebab-menu.svg\");\n/* harmony import */ var _enter_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./enter-icon.svg */ \"./src/enter-icon.svg\");\n/* harmony import */ var _Refresh_icon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Refresh_icon.svg */ \"./src/Refresh_icon.svg\");\n\n\n\n\n\nconst toDoLists = [\n  {\n    description: 'Read my Bible',\n    completed: false,\n    index: 1,\n  },\n  {\n    description: 'Meet My coding partners',\n    completed: false,\n    index: 2,\n  },\n  {\n    description: 'Attend standup call',\n    completed: false,\n    index: 3,\n  },\n];\n\nconst listItems = document.querySelector('.list-items');\n\nconst refreshImg = document.querySelector('.refresh-icon');\nrefreshImg.src = _Refresh_icon_svg__WEBPACK_IMPORTED_MODULE_3__;\n\nconst enterImg = document.querySelector('.enter-icon');\nenterImg.src = _enter_icon_svg__WEBPACK_IMPORTED_MODULE_2__;\n\nconst populateLists = () => {\n  toDoLists.forEach((list) => {\n    const listItem = document.createElement('li');\n    listItem.className = 'list-item';\n    listItem.innerHTML = ` <div>\n        <input type=\"checkbox\"></input>\n        <p>${list.description}</p>\n      </div>\n      <img src=\"${_kebab_menu_svg__WEBPACK_IMPORTED_MODULE_1__}\" alt=\"Kebab-menu\" class=\"kebab-icon\">\n    `;\n    // let radioBox = document.createElement('input');\n    // radioBox.type = 'checkbox';\n    // listItem.appendChild(radioBox);\n    // listItem.textContent = list.description;\n    // ;\n    listItems.appendChild(listItem);\n  });\n};\n\ndocument.addEventListener('DOMContentLoaded', () => {\n  populateLists();\n});\n\n\n//# sourceURL=webpack://todo-list/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _kebab_menu_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./kebab-menu.svg */ \"../img/kebab-menu.svg\");\n/* harmony import */ var _enter_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./enter-icon.svg */ \"../img/enter-icon.svg\");\n/* harmony import */ var _Refresh_icon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Refresh_icon.svg */ \"./src/Refresh_icon.svg\");\n\n\n\n\n\nconst toDoLists = [\n  {\n    description: 'Read my Bible',\n    completed: false,\n    index: 1,\n  },\n  {\n    description: 'Meet My coding partners',\n    completed: false,\n    index: 2,\n  },\n  {\n    description: 'Attend standup call',\n    completed: false,\n    index: 3,\n  },\n];\n\nconst listItems = document.querySelector('.list-items');\n\nconst refreshImg = document.querySelector('.refresh-icon');\nrefreshImg.src = _Refresh_icon_svg__WEBPACK_IMPORTED_MODULE_3__;\n\nconst enterImg = document.querySelector('.enter-icon');\nenterImg.src = _enter_icon_svg__WEBPACK_IMPORTED_MODULE_2__;\n\nconst populateLists = () => {\n  toDoLists.forEach((list) => {\n    const listItem = document.createElement('li');\n    listItem.className = 'list-item';\n    listItem.innerHTML = ` <div>\n        <input type=\"checkbox\"></input>\n        <p>${list.description}</p>\n      </div>\n      <img src=\"${_kebab_menu_svg__WEBPACK_IMPORTED_MODULE_1__}\" alt=\"Kebab-menu\" class=\"kebab-icon\">\n    `;\n    // let radioBox = document.createElement('input');\n    // radioBox.type = 'checkbox';\n    // listItem.appendChild(radioBox);\n    // listItem.textContent = list.description;\n    // ;\n    listItems.appendChild(listItem);\n  });\n};\n\ndocument.addEventListener('DOMContentLoaded', () => {\n  populateLists();\n});\n\n\n//# sourceURL=webpack://todo-list/./src/index.js?");
 
 /***/ }),
 
@@ -126,27 +126,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8e454210ad1a69b978e1.svg\";\n\n//# sourceURL=webpack://todo-list/./src/Refresh_icon.svg?");
+eval("module.exports = __webpack_require__.p + \"8e454210ad1a69b978e1.svg\";\n\n//# sourceURL=webpack://todo-list/../img/Refresh_icon.svg?");
 
 /***/ }),
 
-/***/ "./src/enter-icon.svg":
+/***/ "../img/enter-icon.svg":
 /*!****************************!*\
-  !*** ./src/enter-icon.svg ***!
+  !*** ../img/enter-icon.svg ***!
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"3350f65abcb5ac96676b.svg\";\n\n//# sourceURL=webpack://todo-list/./src/enter-icon.svg?");
+eval("module.exports = __webpack_require__.p + \"3350f65abcb5ac96676b.svg\";\n\n//# sourceURL=webpack://todo-list/../img/enter-icon.svg?");
 
 /***/ }),
 
-/***/ "./src/kebab-menu.svg":
+/***/ "../img/kebab-menu.svg":
 /*!****************************!*\
-  !*** ./src/kebab-menu.svg ***!
+  !*** ../img/kebab-menu.svg ***!
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a10337470a76f4e455d5.svg\";\n\n//# sourceURL=webpack://todo-list/./src/kebab-menu.svg?");
+eval("module.exports = __webpack_require__.p + \"a10337470a76f4e455d5.svg\";\n\n//# sourceURL=webpack://todo-list/../img/kebab-menu.svg?");
 
 /***/ })
 
