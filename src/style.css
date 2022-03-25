@@ -18,7 +18,7 @@ body {
 
 main {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 50px;
 }
 
 ul {
@@ -98,7 +98,7 @@ select:focus {
 }
 
 .input-txt {
-  font-style: normal;
+  font-style: italic;
 }
 
 .ctn-task-list {
