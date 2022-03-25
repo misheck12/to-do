@@ -98,7 +98,7 @@ select:focus {
 }
 
 .input-txt {
-  font-style: italic;
+  font-style: bold;
 }
 
 .ctn-task-list {
