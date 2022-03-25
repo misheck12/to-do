@@ -67,7 +67,7 @@ For validation detection using Stylelint Run
 
 ## Authors
 
-👤 **Cedric Kossi**
+👤 **Misheck livingi**
 
 - GitHub: [@githubhandle](https://github.com/misheck12)
 - Twitter: [@twitterhandle](https://twitter.com/mishecklivingi2)
