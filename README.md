@@ -73,6 +73,13 @@ For validation detection using Stylelint Run
 - Twitter: [@twitterhandle](https://twitter.com/mishecklivingi2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/misheck-livingi-a0b536142/)
 
+
+👤 **Matchoudi**
+
+- GitHub: [Matchoudi](https://github.com/LionRouge1)
+- Twitter: [Matchoudi](https://twitter.com/Matchoudi1)
+- LinkedIn: [Matchoudi](https://www.linkedin.com/in/matchoudi/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
