@@ -1,6 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books
+# ToDO app
+
+>  A web todo list application 
+
+![preview](src/img/preview.png)
 
 > A online application that allows you to add your books to a digital shelf. Vanila javascript was used to create this website. This project now has a local storage option, allowing users to save data in the web app.
 
@@ -13,7 +17,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://cool-dieffenbachia-1d9c50.netlify.app/)
 
 
 ## Getting Started
